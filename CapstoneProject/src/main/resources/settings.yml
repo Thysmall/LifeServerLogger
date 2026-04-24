@@ -1,0 +1,10 @@
+#Database settings
+Database:
+  Type: H2
+  Host: localhost
+  Port: 9092
+  Database: test
+  #Change the username and password from the default for better security.
+  #Optionally create a new user in the database with privileges.
+  Username: sa
+  Password: 

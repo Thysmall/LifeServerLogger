@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #5f584c;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #f7ffd5;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #e5ecc5;
+}
+
+#App {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #f7ffd5;
+}
+
+h2{
+  font-size: 2.4em;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.container{
+  width:567px;
+  height: fit-content;
+  margin: left 30px;
+}
+
+.searchbox{
+  width:567px;
+  height: 40px;
+  border: 1px solid;
+
+}
+
+.table{
+  margin-top: 15px;
+  width: 567px;
+  height: 300px;
+  border:1px solid;
+
+}
+
+.inputsearch{
+  border: 1px solid;
+  border-radius: 5px;
+  width: 200px;
+  height: 25px;
+  margin-left:5px;
+  margin-top: 5px;
+}
+
+.addBtn{
+  float: right;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 5px;
+  width:67px;
+  margin-right: 5px;
+
+}
+
+#nav{
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+  background-color: #707459;
+  padding: 0px 15px;
+
+}
+#nav ul{
+  display: flex;
+  list-style: none;
+}
+#nav ul h2{
+  align-self: flex-end;
+  padding: 0 15px;
+  
+}

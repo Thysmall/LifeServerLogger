@@ -1,0 +1,17 @@
+form{
+    font-size: 1.2em
+}
+
+form>div{
+    padding: 0.5em;
+}
+
+#submit{
+    font-size: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+}

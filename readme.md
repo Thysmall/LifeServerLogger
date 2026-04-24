@@ -30,6 +30,12 @@ sure how to set it up, but it should be more secure.
 Download the Life Server Logger folder and put it near your server for easy 
 access.
 
+Open a terminal and run:
+```bash
+npm install
+```
+If it prompts a fix, run any fixes it asks for.
+
 Go into LifeServerLogSite and change the .env file to your public IP. This will
 change your website's IP to the correct value.
 
